@@ -44,12 +44,12 @@ const Header = () => {
                   <img src="/images/icons/telegram.svg" alt="Telegram icon" />
                 </a>
               </li>
-              <li>
+              <li className={styles.pixelPerfect}>
                 <a href="viber://pa?chatURI=amocrm_support">
                   <img src="/images/icons/viber.svg" alt="Viber icon" />
                 </a>
               </li>
-              <li>
+              <li className={styles.pixelPerfect}>
                 <a href="https://wa.me/75555555555">
                   <img src="/images/icons/whatsapp.svg" alt="Whatsapp icon" />
                 </a>

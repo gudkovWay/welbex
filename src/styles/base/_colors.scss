@@ -7,3 +7,13 @@ $muted-text: #656566;
   background-clip: text;
   text-fill-color: transparent;
 }
+
+@mixin secondary-text-gradient {
+
+background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
