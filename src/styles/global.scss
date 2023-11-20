@@ -1,0 +1,11 @@
+@import './base/reset';
+@import './base/vars';
+
+* {
+  font-family: $main-font;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
