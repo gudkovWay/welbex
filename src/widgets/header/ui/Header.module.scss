@@ -1,0 +1,64 @@
+  @import "../../../styles/base/vars";
+
+  .nav {
+
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-around;
+
+    &__site {
+
+      display: flex;
+      gap: 52px;
+
+      &__logo {
+        max-width: 165px;
+        a {
+
+          p {
+            font-family: $secondary-font;
+            font-size: 10px;
+            font-weight: 300;
+            color: $text;
+            margin-top: 10px;
+            margin-left: 4px;
+          }
+        }
+      }
+
+    &__links {
+      nav {
+        ul  {
+          display: flex;
+          flex-flow: row nowrap;
+          gap: 30px;
+
+          li a {
+            font-family: $main-font;
+            font-size: 16px;
+            font-weight: 500;
+
+          }
+        }
+      }
+    }
+    }
+
+    &__contacts {
+      ul {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 0px;
+
+        li {
+          font-family: $main-font;
+          font-size: 16px;
+          font-weight: 500;
+          margin-right: 30px;
+        }
+        li:first-child {
+          margin-right: 47px;
+        }
+      }
+    }
+  }
