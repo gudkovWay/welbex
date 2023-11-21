@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+# WELBEX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Stack:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![SCSS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-## Available Scripts
+## 🇺🇸 EU:
 
-In the project directory, you can run:
+### Preview:
+<img src="https://github.com/gudkovWay/welbex/assets/147748630/e7a41342-69ef-4607-a104-ab1a548aefa9" alt="preview image">
+<img src="https://i.imgur.com/KXlgFGu.png" alt="preview mobile image"> 
 
-### `npm start`
+### Deploying: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<b>Check it out for urself at the link: https://welbex-eta.vercel.app</b>
+<b> OR deploy the project on ur PC with this steps:</b>
+- **Clone this repo (u need git for work w. him in terminal) or just download archive**
+```sh
+cd Documents
+mkdir Projects
+cd Projects
+git clone https://github.com/gudkovWay/welbex
+```
+- **Then install dependecies via this command:**
+```sh
+cd welbex
+npm install
+```
+- **Finally: run the project**
+```sh
+npm run
+```
+<b>URL in browser: 127.0.0.1:3000/</b>
+<b>By commits u can see the estimated time to complete one or another step in the development of this project.</b>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Structure of Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+└── src/                        # init.
+    ├── app/                    # background(blur, shadows)         
+    |                           #
+    ├── entities/               # Layer: Business-entities
+    |   ├── {some-entity}/      #     Slice: (Consult)
+    |   |   └── ui/             #         Segment:  UI Logic
+    |   ...                     #
+    |                           #
+    ├── widgets/                # Layer: self blocks for pages
+    |   ├── {some-widget}/      #     Slice: (e.g.: Header widget)
+    |   |   └── ui/             #         Segment: UI logic
+    |                           #
+    ├── styles/                 # Layer: With global styles, base mixin|vars|colors
+    |   ...                     #
+    |                           #
+    └── index.tsx/ | App.tsx    # Root files 
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🇷🇺 RU:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Предпросмотр:
+<img src="https://github.com/gudkovWay/welbex/assets/147748630/e7a41342-69ef-4607-a104-ab1a548aefa9" alt="preview image">
+<img src="https://i.imgur.com/KXlgFGu.png" alt="preview mobile image"> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Развертывание:
+<b> Можете проверить сайт по ссылке: https://welbex-eta.vercel.app</b>
+<b> Или развернуть на своем компьютере с помощью следующих комманд:</b>
+- **Склонируйте репозиторий через CLI (нужен git) или скачайте архив и распакуйте в удобное место**
+```sh
+cd Documents
+mkdir Projects
+cd Projects
+git clone https://github.com/gudkovWay/welbex
+```
+- **Затем установите зависимости следующими командами:**
+```sh
+cd welbex
+npm install
+```
+- **Наконец: запустите проект**
+```sh
+npm run
+```
+<b>URL в браузере: 127.0.0.1:3000/</b>
+<b>По коммитам вы можете смотреть примерное время разработки того или иного шага этого проекта.</b>
 
-### `npm run eject`
+### Структура проекта
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+└── src/                        # Иницализация приложения, корень.
+    ├── app/                    # Бекграунд для всей страницы, тени и блюр         
+    |                           #
+    ├── entities/               # Слой: Бизнес-сущности, которыми оперирует предметная область
+    |   ├── {some-entity}/      #     Слайс: (Consult)
+    |   |   └── ui/             #         Сегмент: Логика UI
+    |   ...                     #
+    |                           #
+    ├── widgets/                # Слой: Самостоятельные и полноценные блоки для страниц
+    |   ├── {some-widget}/      #     Слайс: (пример: Header widget)
+    |   |   └── ui/             #         Сегмент: Логика UI
+    |                           #
+    ├── styles/                 # Слой: С глобальными стилями, миксинами и переменными
+    |   ...                     #
+    |                           #
+    └── index.tsx/ | App.tsx    # Главные файлы приложения, которые возвращают целевую страницу.
+```
