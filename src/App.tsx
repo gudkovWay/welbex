@@ -1,5 +1,6 @@
 import React from "react";
 
+import AppBackground from "./app";
 import Header from "./widgets/header";
 import Consult from "./entities/consult";
 import Footer from "./widgets/footer";
@@ -7,6 +8,7 @@ import Footer from "./widgets/footer";
 function App() {
   return (
     <main>
+      <AppBackground />
       <Header />
       <Consult />
       <Footer />
