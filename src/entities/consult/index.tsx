@@ -5,7 +5,7 @@ const Consult = () => {
     <section className={styles.consult}>
       <div className={styles.consult__left}>
         <h1>
-          Зарабатывайте больше <h2>с WELBEX</h2>
+          Зарабатывайте больше <br /> <b>с WELBEX</b>
         </h1>
         <p>
           Развиваем и контролируем <br /> продажи за вас
@@ -24,7 +24,10 @@ const Consult = () => {
               <h3> DASHBOARD</h3> <p> с показателями вашего бизнеса</p>
             </li>
             <li>
-              <h3> SKYPE АУДИТ</h3> <p> отдела продаж и CRM системы </p>
+              <h3> SKYPE АУДИТ</h3>
+              <p>
+                отдела продаж <br /> и CRM системы
+              </p>
             </li>
             <li>
               <h3> 35 ДНЕЙ</h3> <p> использования CRM</p>
