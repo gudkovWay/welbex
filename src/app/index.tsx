@@ -3,11 +3,12 @@ import styles from "./App.module.scss";
 const AppBackground = () => {
   return (
     <>
+      <div className={styles.whiteLight}></div>
       <div className={styles.purpleBall}></div>
       <div className={styles.purpleLight}></div>
-      <div className={styles.rightBall}></div>
-      <div className={styles.rightLight}></div>
-      <div className={styles.rightBallSmall}></div>
+      <div className={styles.redBall}></div>
+      <div className={styles.redLight}></div>
+      <div className={styles.redBallSmall}></div>
     </>
   );
 };

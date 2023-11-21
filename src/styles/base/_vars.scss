@@ -1,2 +1,7 @@
 @import './fonts';
-@import './colors'
+@import './colors';
+@import './mixins';
+
+// Media
+$mobile: 720px;
+$desktop: 1440px;

@@ -7,12 +7,14 @@ import Footer from "./widgets/footer";
 
 function App() {
   return (
-    <main>
+    <>
       <AppBackground />
-      <Header />
-      <Consult />
-      <Footer />
-    </main>
+      <main>
+        <Header />
+        <Consult />
+        <Footer />
+      </main>
+    </>
   );
 }
 

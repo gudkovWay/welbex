@@ -1,0 +1,11 @@
+@mixin mediaDesktop {
+  @media screen and (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin mediaMobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
