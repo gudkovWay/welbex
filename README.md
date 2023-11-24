@@ -6,7 +6,7 @@
 ## 🇷🇺 RU:
 
 ### Предпросмотр:
-<img src="https://github.com/gudkovWay/welbex/assets/147748630/e7a41342-69ef-4607-a104-ab1a548aefa9" alt="preview image">
+<img src="https://i.imgur.com/iq1yHsC.png" alt="preview image">
 <img src="https://i.imgur.com/KXlgFGu.png" alt="preview mobile image"> 
 
 ### Развертывание:
@@ -56,7 +56,7 @@ npm run
 ## 🇺🇸 EU:
 
 ### Preview:
-<img src="https://github.com/gudkovWay/welbex/assets/147748630/e7a41342-69ef-4607-a104-ab1a548aefa9" alt="preview image">
+<img src="https://i.imgur.com/iq1yHsC.png" alt="preview image">
 <img src="https://i.imgur.com/KXlgFGu.png" alt="preview mobile image"> 
 
 ### Deploying: 
